@@ -1,7 +1,107 @@
+<style>
+   body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(
+        135deg,
+        #020617,
+        #172554,
+        #0284c7
+    );
+}
+
+.section{
+    padding:50px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    margin-top:20px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    background:#111827;
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color:#38bdf8;
+}
+
+.portfolio-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin-top:25px;
+}
+
+.product-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    min-height:300px;
+    box-shadow:0 6px 20px rgba(0,0,0,.25);
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 14px 30px rgba(0,0,0,.4);
+}
+</style>
+
 <body>
 
 <div class="hero">
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
+}
 
+.hero{
+    text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(
+        135deg,
+        #020617,
+        #172554,
+        #0284c7
+    );
+}
+
+.section{
+    padding:50px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    margin-top:20px;
+}
     <h1>Himabindu Saminani</h1>
 
     <h2>
@@ -24,17 +124,17 @@
 
 <div class="navbar">
 
-    #aboutAbout</a>
+<a href="#about">About</a>
 
-    #portfolioPortfolio</a>
+<a href="#portfolio">Portfolio</a>
 
-    #visionVision</a>
+<a href="#vision">Vision</a>
 
-    #roadmapRoadmap</a>
+<a href="#roadmap">Roadmap</a>
 
-    #skillsSkills</a>
+<a href="#skills">Skills</a>
 
-    #contactContact</a>
+<a href="#contact">Contact</a>
 
 </div>
 
@@ -67,87 +167,138 @@
 
 <section class="section" id="portfolio">
 
-    <h2>AI Product Portfolio</h2>
+<h2>AI Product Portfolio</h2>
 
-    <div class="card">
+<div class="portfolio-grid">
 
-        <h3>KCreditSphere</h3>
+<div class="product-card">
 
-        <p>
+<h3>🚀 KCreditSphere</h3>
 
-            AI-powered Credit Portfolio Intelligence Platform
-            providing customer analytics,
-            credit intelligence,
-            risk analytics,
-            lending recommendations,
-            conversational AI,
-            RAG architecture,
-            and AI decision support.
+<p>
 
-        </p>
+AI-powered Credit Portfolio Intelligence Platform
+focused on customer analytics,
+risk intelligence,
+lending recommendations,
+RAG,
+and AI decision support.
 
-        <ul>
+</p>
 
-            <li>Customer Intelligence</li>
+<ul>
 
-            <li>Credit Portfolio Intelligence</li>
+<li>Customer Intelligence</li>
 
-            <li>Risk Analytics</li>
+<li>Credit Portfolio Intelligence</li>
 
-            <li>Prime Lending Candidates</li>
+<li>Risk Analytics</li>
 
-            <li>Lending Recommendation Engine</li>
+<li>Lending Recommendations</li>
 
-            <li>Credit Decision Intelligence</li>
+<li>RAG</li>
 
-        </ul>
+<li>AI Decision Intelligence</li>
 
-    </div>
+</ul>
 
-    <div class="card">
+</div>
 
-        <h3>Merchant Insight AI</h3>
+<div class="product-card">
 
-        <p>
+<h3>📈 Merchant Insight AI</h3>
 
-            Customer Experience Intelligence Platform focused on
-            CSAT analytics,
-            NPS analytics,
-            merchant attrition prediction,
-            retention intelligence,
-            survey analytics,
-            and executive reporting.
+<p>
 
-        </p>
+Merchant Experience Intelligence Platform focused on
+CSAT analytics,
+NPS analytics,
+merchant attrition prediction,
+and retention intelligence.
 
-        <ul>
+</p>
 
-            <li>CSAT Analytics</li>
+<ul>
 
-            <li>NPS Analytics</li>
+<li>CSAT Analytics</li>
 
-            <li>Merchant Attrition Prediction</li>
+<li>NPS Analytics</li>
 
-            <li>Retention Intelligence</li>
+<li>Attrition Prediction</li>
 
-            <li>Survey Analytics</li>
+<li>Retention Intelligence</li>
 
-            <li>Executive Dashboards</li>
+<li>Survey Analytics</li>
 
-        </ul>
+<li>Executive Dashboards</li>
 
-    </div>
+</ul>
 
-    <div class="card">
+</div>
 
-        <h3>CallCenter Intelligence AI</h3>
+<div class="product-card">
 
-        <p>
+<h3>🎧 CallCenter Intelligence AI</h3>
 
-            Contact Center Analytics Platform delivering
-            agent performance intelligence,
-            call categorization,
-            escalation analytics,
-            customer interaction intelligence,
-            root-cause analysis,
-            and AI coaching
+<p>
+
+Contact Center Analytics Platform for
+agent performance,
+call analytics,
+root-cause detection,
+and AI coaching.
+
+</p>
+
+<ul>
+
+<li>Call Analytics</li>
+
+<li>Agent Performance</li>
+
+<li>Escalation Intelligence</li>
+
+<li>Root Cause Detection</li>
+
+<li>Call Categorization</li>
+
+<li>AI Coaching</li>
+
+</ul>
+
+</div>
+
+<div class="product-card">
+
+<h3>💰 Financial Goals AI</h3>
+
+<p>
+
+Financial Planning Intelligence Platform helping
+users achieve long-term financial goals through forecasting,
+recommendations,
+and AI coaching.
+
+</p>
+
+<ul>
+
+<li>Goal Forecasting</li>
+
+<li>Savings Prediction</li>
+
+<li>Investment Intelligence</li>
+
+<li>Retirement Planning</li>
+
+<li>Financial Coaching</li>
+
+<li>Decision Support</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
