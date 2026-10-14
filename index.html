@@ -59,10 +59,12 @@ body{
 
 .portfolio-grid{
     display:grid;
-    grid-template-columns:repeat(2, minmax(350px, 1fr));
+    grid-template-columns:repeat(2,1fr);
     gap:25px;
 }
-
+.portfolio-grid > *{
+    margin:0;
+}
 .product-card{
     background:#1e293b;
     padding:25px;
