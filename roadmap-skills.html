@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 <title>AI Innovation Roadmap</title>
 
 <style>
+
 body{
     background:#0f172a;
     color:white;
@@ -14,26 +16,8 @@ body{
     margin:0;
 }
 
-.hero{
-    text-align:center;
-    padding:120px 20px;
-    background:linear-gradient(
-        135deg,
-        #020617,
-        #172554,
-        #0284c7
-    );
-}
-
 .section{
     padding:30px 50px;
-}
-
-.card{
-    background:#1e293b;
-    padding:25px;
-    border-radius:15px;
-    margin-top:20px;
 }
 
 .navbar{
@@ -42,87 +26,34 @@ body{
     gap:40px;
     background:#111827;
     padding:18px;
-    position:sticky;
-    top:0;
-    z-index:100;
 }
 
 .navbar a{
     color:white;
     text-decoration:none;
-    font-weight:bold;
 }
 
-.navbar a:hover{
-    color:#38bdf8;
+.roadmap-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
 }
-<section class="section" id="roadmap">
 
-    <h2>AI Innovation Roadmap</h2>
+.roadmap-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
 
-    <div class="roadmap-grid">
+</style>
 
-        <div class="roadmap-card">
-            <h3>🤖 Agentic AI</h3>
-            <p>
-                Multi-agent/LangGraph orchestration, planning,
-                reasoning, memory management, Engineer agentic systems (MCP, A2A) 
-                evaluation, and human-in-the-loop systems.
-            </p>
+</head>
 
-            <a hrefws.html#agentic
-                Explore Architecture →
-            </a>
-        </div>
+<body>
 
-        <div class="roadmap-card">
-            <h3>📚 Enterprise RAG</h3>
-            <p>
-                Enterprise knowledge retrieval,
-                embeddings, vector search,
-                grounding and explainability.
-            </p>
+<h1>AI Innovation Roadmap</h1>
 
-            workflows.html#rag
-                Explore Architecture →
-            </a>
-        </div>
-
-        <div class="roadmap-card">
-            <h3>🧠 Context Engineering</h3>
-            <p>
-                Context windows, memory systems,
-                retrieval optimization,
-                context compression.
-            </p>
-
-            workflows.html#context
-                Explore Architecture →
-            </a>
-        </div>
-
-        <div class="roadmap-card">
-            <h3>🏛 Enterprise AI Architecture</h3>
-            <p>
-                Scalable AI platforms,
-                observability,
-                governance,
-                security and operations.
-            </p>
-
-            workflows.html#enterprise
-                Explore Architecture →
-            </a>
-        </div>
-
-    </div>
-
-</section>
+<p>If you can see this text, the page is working.</p>
 
 </body>
-</html>
-                
-    
-
-                
-    
+</html>   
