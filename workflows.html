@@ -74,7 +74,16 @@ body{
     white-space:pre-line;
     font-family:Consolas, monospace;
 }
+.diagram-container{
+    text-align:center;
+    margin-top:30px;
+}
 
+.diagram-container img{
+    max-width:100%;
+    border-radius:12px;
+    box-shadow:0 6px 20px rgba(0,0,0,.35);
+}
 </style>
 
 </head>
@@ -119,40 +128,9 @@ body{
         </p>
 
         <div class="diagram">
-
-User Request
-
-↓
-
-Planner Agent
-
-↓
-
-Task Breakdown
-
-↓
-
-Research Agent → Retrieval Agent
-
-↓
-
-Enterprise RAG Layer
-
-↓
-
-LLM Reasoning
-
-↓
-
-Evaluator Agent
-
-↓
-
-Human Approval
-
-↓
-
-Final Response
+          <img
+            src="images/agentic-ai-ref-archi.png"
+            alt="Enterprise Agentic AI Reference Architecture">
 
         </div>
 
